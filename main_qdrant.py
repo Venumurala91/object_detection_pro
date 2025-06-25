@@ -11,7 +11,7 @@ import gradio as gr
 from face_search_logic_qdrant import FaceSearchEngine, FACE_DATABASE_PATH
 
 # --- 1. SETUP ---
-search_engine = FaceSearchEngine()
+search_engine = FaceSearchEngine() # for search
 
 
 @contextlib.asynccontextmanager
