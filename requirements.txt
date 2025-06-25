@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+gradio
+qdrant-client
+insightface
+onnxruntime # or onnxruntime-gpu for GPU support
+opencv-python
+numpy
+
+
